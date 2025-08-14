@@ -72,6 +72,35 @@
                 border-bottom: 10px solid transparent;
                 border-top: 10px solid transparent;
             }
+            .download-btn {
+                display: inline-block;
+                padding: 12px 24px;
+                background-color: #ffffff;
+                color: rgb(0, 0, 0);
+                font-family: pixel;
+                font-size: 32px;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 8px;
+                border: 1px solid transparent;
+                cursor: pointer;
+                width: 50%;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+            }
+
+            .download-btn:hover {
+                background-color: #000000;
+                color: #ffffff;
+                border: 1px solid #ffffff;
+                width: 50%;
+            }
+
+            .spacing {
+                border: 20px solid transparent;
+            }
         </style>
     </head>
     <body style="background-color: black;">
@@ -81,6 +110,10 @@
         </div>
         <h1>Explore the remnants of a ruined kingdom</h1>
         <div class="base_container">
+            <p class="body">
+                StarVeil is a Hollow Knight-like metroidvania where you dash through enemies in order to attack them. Due to this mechanic, the combat requires precise timing and a bit of skill.
+                The game is also inspired by Celeste having an 8-directional dash and even including wave dashing and other mechanics from celeste.
+            </p>
             <div class="image_text">
                  <img class="Showcase_l" src="images/screenshot2.png" alt="Explore different Environments image">
                   <div class="text_containers">
@@ -109,7 +142,11 @@
                         </p>
                   </div>
             </div>
+             <h2>Want to try it out?</h2>
+             <div class="spacing"></div>
+             <a href="Windows.zip" download class="download-btn">
+                 Download the Demo  [Windows]
+             </a>
         </div>
-    
     </body>
 </html>
