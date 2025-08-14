@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="devlog,Game,Indie"> 
+        <meta name="description" content="Information about an Indie metroidvania game where the player dashes to atack.">
+        <title>StarVeil</title>
+        <style>
+            @font-face {
+                font-family: pixel;
+                src: url(Font.ttf);
+            }
+            h1 {
+                font-size: xx-large;
+                font-family: pixel;
+                text-align: center;
+                color: white;
+            }
+            h2 {
+                font-size: xx-large;
+                font-family: pixel;
+                color: white;
+                text-align: center;
+            }
+            h3 {
+                font-size: large;
+                font-family: pixel;
+                color: white;
+            }
+            .body {
+                font-family: pixel;
+                color: white;
+                text-align: center;
+            }
+            .cover {
+                object-fit: cover;
+                width: 100%;
+                height: 503px;
+            }
+            img.title {
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .cover-container {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+            }
+            .base_container {
+                margin: auto;
+                width: 1280px;
+            }
+            .Showcase_r {
+                width: 640px;
+                order: 1;
+            }
+            .Showcase_l {
+                width: 640px;
+                order: 0;
+            }
+            .text_containers {
+                border: 50px;
+            }
+            .image_text {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                border-bottom: 10px solid transparent;
+                border-top: 10px solid transparent;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div class="cover-container">
+            <img class="cover" src="images/screenshot.png" alt="cover image">
+            <img class="title" src="images/FulltTitle.png" alt="overlay image">
+        </div>
+        <h1>Explore the remnants of a ruined kingdom</h1>
+        <div class="base_container">
+            <div class="image_text">
+                 <img class="Showcase_l" src="images/screenshot2.png" alt="Explore different Environments image">
+                  <div class="text_containers">
+                      <h2 class="r">Explore different Environments</h2>
+                       <p class="body">
+                           Venture through a variety of unique locations, each with its own atmosphere, challenges, and secrets to uncover.
+                           From rocky mountains to deep underwater cities, every environment offers new sights, foes and obstacles to overcome.
+                        </p>
+                  </div>
+            </div>
+            <div class="image_text">
+                <img class="Showcase_r" src="images/screenshot7.png" alt="Friends image">
+                <div class="text_containers">
+                      <h2 class="r">Meet new friends...</h2>
+                       <p class="body">
+                           Meet fellow adventurers along your journey—some may even lend a helping hand!
+                        </p>
+                </div>
+            </div>
+            <div class="image_text">
+                 <img class="Showcase_l" src="images/screenshot8.png" alt="Frieds image">
+                  <div class="text_containers">
+                      <h2 class="r">And Foes</h2>
+                       <p class="body">
+                           Meet dangerous enemies and kill them to get rewarded.
+                        </p>
+                  </div>
+            </div>
+        </div>
+    
+    </body>
+</html>
